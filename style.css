@@ -18,3 +18,7 @@ button{
 .link{
     color: aliceblue;
 }
+
+a{
+    text-decoration: none;
+}
