@@ -22,3 +22,12 @@ button{
 a{
     text-decoration: none;
 }
+
+.heading{
+    align-items: center;
+    width: 12rem;
+    margin: 20px auto;
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgb(133, 126, 126);
+}
