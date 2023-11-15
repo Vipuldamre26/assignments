@@ -1,0 +1,32 @@
+
+.head{
+    text-align: center;
+}
+
+h2{
+    width: 450px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.head img{
+    width: 720px;
+    margin: 13px auto;
+}
+
+p{
+    width: 450px;
+    margin: 13px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(105, 105, 105);
+    text-align: left;
+}
+
+.foot{
+    text-align: center;
+}
+
+.h-row{
+    height: 2px;
+    background-color: rgb(68, 68, 68);
+}
