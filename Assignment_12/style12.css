@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=McLaren&family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=McLaren&family=Poppins:wght@400;700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Navbar  */
+
+header{
+    height: 78px;
+    width: 100%;
+    background-color: #333333;
+    position: fixed;
+}
+
+.navbar{
+    display: flex;
+    height: 78px;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar h2{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    height: 65px;
+    width: 540px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+li a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+
+
+
+
+/* section 1 */
+.section1{
+    background-image: url("./img/background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 750px;
+    padding: 240px;
+}
+
+.sec1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.sec1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px 10px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.sec1 p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins;
+    text-align: center;
+    padding: 10px 70px;
+}
+
+
+.btn{
+    width: 185px;
+    height: 50px;
+    font-family: poppins;
+    color: black;
+    background-color: #ffffff;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ffffff3c;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+
+
+
+
+
+/* section 2 */
+
+.sec2{
+    padding: 50px 10px;
+    background-color: #F5F5F5;
+}
+
+.pic{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+.sec2 h2{
+    width: 14%;
+    margin: auto;
+    font-size: 30px;
+    font-family: poppins;
+}
+
+.sec2 p{
+    width: 30%;
+    font-family: poppins;
+    margin: auto;
+}
+
+.un-li{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.un-li p{
+    width: 95%;
+    text-align: center;
+}
+
+.sec2-img{
+    width: 360px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin: 15px 10px;
+}
+
+.sec2-img h3{
+    font-family: poppins;
+}
+
+
+
+
+
+
+/* section 3 */
+
+.s3{
+    background-color: #F5F5F5;
+}
+
+.sec3{
+    width: 80%;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.sec3 h2{
+    width: 14%;
+    margin: auto;
+    font-size: 30px;
+    font-family: poppins;
+}
+
+.sec3 p{
+    width: 38%;
+    font-family: poppins;
+    margin: auto;
+}
+
+
+.sec3-info{
+    text-align: left;
+    width: 98%;
+    margin: 10px;
+    font-family: poppins;
+}
+
+.sec3-info h3{
+    width: 95%;
+    margin: 10px auto;
+    padding: 5px;
+
+}
+
+.sec3-info p{
+    width: 95%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.sec3-info ul{
+    width: 95%;
+    padding: 10px 45px;
+}
+
+/* footer  */
+
+
+footer{
+    background-color: #F5F5F5;
+    font-family: poppins;
+    padding-bottom: 50px;
+}
+
+.f1 h2{
+    width: 14%;
+    margin: auto;
+    font-size: 30px;
+}
+
+
+.f1 p{
+    width: 26%;
+    margin: auto;
+}
+
+.foot{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about{
+    width: 60%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.time{
+    width: 82%;
+    text-decoration: none;
+    list-style: none;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+
+.time p{
+    width: 86%;
+}
+
+.time i{
+    color: #7b7b7b;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.info input{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.info button{
+    width: 150px;
+    height: 42px;
+    margin-top: 10px;
+    font-family: poppins;
+    background-color: #333333;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.info textarea{
+    padding: 10px;
+}
