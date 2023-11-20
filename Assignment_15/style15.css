@@ -1,0 +1,140 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=McLaren&family=Poppins:wght@400;700&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    box-shadow: inset 0 100px 300px 150px #1c1c1c;
+    height: 100%;
+}
+
+body{
+    background-image: url("./img/background.jpg");
+    color: white;
+    
+}
+
+header{
+    height: 92px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 78%;
+    height: 100%;
+    align-items: center;
+
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid rgba(255, 229, 180, 0.438);
+}
+
+
+.lang p{
+    padding: 0 10px;
+    font-family: poppins;
+}
+
+.logo img{
+    width: 150px;
+    height: 40px;
+}
+
+
+button{
+    font-family: poppins;
+    font-weight: 550;
+    font-size: 13px;
+    width: 80px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+
+
+/* section  */
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: poppins;
+    height: 645px;
+    width: 80%;
+    margin: auto;
+}
+
+.main h1{
+    font-size: 48px;
+}
+
+.main p{
+    font-size: 18px;
+}
+
+.main .pa{
+    font-size: 24px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 56px;
+    width: 366px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.388);
+    color: white;
+    border: 1px solid rgba(139, 139, 139, 0.568);
+    
+}
+
+input::placeholder {
+    color: #d8d8d8; /* Change this to the desired color */
+    font-family: poppins;
+  }
+
+.btn{
+    width: 210px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
